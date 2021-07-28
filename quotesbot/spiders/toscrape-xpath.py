@@ -6,6 +6,7 @@ class ToScrapeSpiderXPath(scrapy.Spider):
     name = 'toscrape-xpath'
     start_urls = [
         'http://quotes.toscrape.com/',
+        'http://quotes.toscrape.com/tag/love/',
     ]
 
     def parse(self, response):
